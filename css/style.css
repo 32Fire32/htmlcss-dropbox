@@ -9,3 +9,55 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* COMMON */
+
+.btn {
+    background-color: #0061ff; 
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.left-header, .right-header {
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.right-header {
+    justify-content: flex-end;
+}
+
+.list-nav {
+    display: flex;
+}
+
+.li-header-left, .li-header-right {
+    margin: 0 20px;
+}
