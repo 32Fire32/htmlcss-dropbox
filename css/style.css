@@ -6,17 +6,40 @@
 }
 
 /* TYPO */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* COMMON */
+h1 {
+    font-size: clamp(1rem, 11vh, 8rem);
+    font-weight:800;
+    margin-bottom: 50px;
+}
+
+/* BUTTONS */
 
 .btn {
     background-color: #0061ff; 
     color: #fff;
     padding: 10px 10px;
     border: none;
+}
+
+/* COMMON */
+
+main {
+    height: 100vh;
+}
+
+.container-big {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: auto;
 }
 
 ul {
@@ -32,12 +55,29 @@ a {
     color: inherit;
 }
 
+.row {
+    display: flex;
+}
+
+.col-small {
+    width: 30%;
+}
+
+.col-big {
+    width: 70%
+}
+
 /* HEADER */
 
 header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
+    background-color: #fff;
+    top:0;
+    left:0;
+    right:0;
 }
 
 .logo {
@@ -60,4 +100,32 @@ header {
 
 .li-header-left, .li-header-right {
     margin: 0 20px;
+}
+
+/* MAIN */
+
+.hero {
+    background: linear-gradient(#b4d0e7 89%, #b4d0e7 90%, #fff 90%, #fff 100%);
+    padding-top: 140px;
+}
+
+.relative {
+    position: relative;
+}
+
+.jumbo {
+    width:100%;
+}
+
+.col-big-jumbo {
+    position: relative;
+}
+
+.btn-free {
+    margin: 30px 0 30px 0;
+}
+
+.fa-arrow-down {
+    font-size: 5vh;
+    padding-top: 80px;
 }
