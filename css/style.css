@@ -38,6 +38,10 @@ strong {
     width:100%;
 }
 
+.btn-enterprise {
+    text-align: right;
+}
+
 /* COMMON */
 
 main {
@@ -116,11 +120,15 @@ header {
     margin: 0 20px;
 }
 
+ #business {
+    margin-bottom: 40px;
+ }
+
 /* MAIN */
 
 /* SECTION 1 */
 
-.hero {
+#hero {
     background: linear-gradient(#b4d0e7 89%, #b4d0e7 90%, #fff 90%, #fff 100%);
     padding-top: 140px;
     margin-bottom: 50px;
@@ -191,4 +199,18 @@ header {
 .contact-us {
     margin-bottom: 70px;
     /* AGGIUSTARE */
+}
+
+/* SECTION 3 */
+
+.col100w {
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.enterprise-container {
+    padding: 30px;
+}
+
+.solutions {
+    margin-top: 40px;
 }
