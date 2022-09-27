@@ -283,3 +283,33 @@ header {
 
 /* SECTION 9 */
 
+div.row.borders {
+    width: 100%;
+}
+
+.borders {
+    border:1px solid rgb(194, 194, 194);
+    border-left: none;
+    border-right: none;    
+}
+
+div.row.borders:nth-child(3) {
+    border:none;
+}
+
+.btn-faq{
+    padding: 40px 0;
+    background-color: #fff;
+    border:none;
+}
+
+.btn-faq:nth-child(2) {
+    border:none;
+}
+
+#faq .col-small {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
