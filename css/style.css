@@ -43,10 +43,6 @@ strong {
     padding: 10px 10px;
 }
 
-.btn-enterprise {
-    text-align: right;
-}
-
 /* COMMON */
 
 main {
@@ -55,6 +51,10 @@ main {
 
 section {
     margin-bottom: 120px;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .container-big {
@@ -234,10 +234,6 @@ header {
     border: 1px solid rgb(194, 194, 194);
 }
 
-.enterprise-container {
-    padding: 30px;
-}
-
 #partner-getintouch img {
     width: 100%;
 }
@@ -247,3 +243,43 @@ header {
 .imageb {
     width: 100%;
 }
+
+/* SECTION 7 */
+
+.big-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    background-color: brown;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: darkgreen;
+}
+
+/* SECTION 8 */
+
+#your-business {
+    background-color: #b4d0e7;
+}
+
+#your-business .col-big {
+    padding: 80px 0px;
+}
+
+#your-business .col-small {
+    padding: 80px 0px;
+}
+
+#your-business .btn-white {
+    border: none;
+}
+
+#your-business h2 {
+    color: #61082b;
+}
+
+/* SECTION 9 */
+
