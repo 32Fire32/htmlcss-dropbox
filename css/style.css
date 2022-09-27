@@ -38,6 +38,11 @@ strong {
     width:100%;
 }
 
+.btn-white {
+    background-color: #fff; 
+    padding: 10px 10px;
+}
+
 .btn-enterprise {
     text-align: right;
 }
@@ -46,6 +51,10 @@ strong {
 
 main {
     height: 100vh;
+}
+
+section {
+    margin-bottom: 40px;
 }
 
 .container-big {
@@ -77,6 +86,14 @@ li {
 
 .col-big {
     width: 70%
+}
+
+.int-padding {
+    padding: 30px
+}
+
+.mb-40 {
+    margin-bottom: 40px;
 }
 
 /* HEADER */
@@ -211,6 +228,6 @@ header {
     padding: 30px;
 }
 
-.solutions {
-    margin-top: 40px;
+#partner-getintouch img {
+    width: 100%;
 }
