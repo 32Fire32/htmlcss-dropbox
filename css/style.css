@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
 }
 
 h1 {
@@ -21,8 +22,8 @@ h2 {
     font-size: clamp(1rem, 5.7vh, 8rem);
 }
 
-strong {
-    font-size: 2vh;
+h4 {
+    font-size: 1.2rem;
 }
 
 /* BUTTONS */
@@ -44,10 +45,6 @@ strong {
 }
 
 /* COMMON */
-
-main {
-    height: 100vh;
-}
 
 section {
     margin-bottom: 120px;
@@ -87,7 +84,6 @@ li {
 
 .listspaces {
     margin-bottom: 20px;
-    display: flex;
 }
 
 .row {
@@ -114,6 +110,10 @@ li {
     margin-bottom: 20px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
 /* HEADER */
 
 header {
@@ -125,9 +125,10 @@ header {
     top:0;
     left:0;
     right:0;
+    z-index: 10;
 }
 
-.link-header {
+.link-nostyle {
     text-decoration: none;
     color: inherit;
 }
@@ -161,7 +162,7 @@ header {
 
 /* MAIN */
 
-/* SECTION 1 */
+/* HERO SECTION 1 */
 
 #hero {
     background: linear-gradient(#b4d0e7 89%, #b4d0e7 90%, #fff 90%, #fff 100%);
@@ -187,7 +188,7 @@ header {
     margin-bottom: 50px;
 }
 
-/* SECTION 2 */ 
+/*  BUSINESS SECTION 2 */ 
 
 #radio {
     display: inline-block;
@@ -218,17 +219,18 @@ header {
 }
 
 .fa-solid {
+    margin-top: 4.5px;
     margin-right: 5px;
 }
 
-/* SEZIONE 3 */
+/* ENTERPRISE SEZIONE 3 */
 
 .contact-us {
     margin-bottom: 70px;
     /* AGGIUSTARE */
 }
 
-/* SECTION 4 */
+/* PARTNER-GETINTOUCH SECTION 4 */
 
 .col100w {
     border: 1px solid rgb(194, 194, 194);
@@ -238,28 +240,95 @@ header {
     width: 100%;
 }
 
-/* SECTION 5 */
+/*  OPERATION-PLANS SECTION SECTION 5 */
 
 .imageb {
     width: 100%;
 }
 
-/* SECTION 7 */
+/* MANY-TEAMS 6 */
+
+/* TEAMS-USING SECTION 7 */
 
 .big-box {
+    position: relative;
+    width: calc(100% / 3);
+}
+
+.big-box::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.big-box-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: flex;
     flex-wrap: wrap;
-    width: calc(100vw / 3);
-    background-color: brown;
+    overflow-y: auto;
+}
+
+.box img {
+    width: 50%;
+    filter: invert(91%) sepia(64%) saturate(0%) hue-rotate(229deg) brightness(102%) contrast(101%);
 }
 
 .box {
-    width: 50px;
-    height: 50px;
-    background-color: darkgreen;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* SECTION 8 */
+.box-central img {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.box-central{
+    padding: 50px;
+}
+
+.green {
+    background-color: #a2d39b;
+    box-shadow: inset 0px 0px 0px 10px #d1e9cd;
+}
+
+.purple {
+    background-color: #61082b;
+}
+
+.azure {
+    background-color: #0093ce;
+}
+
+.red {
+    background-color: #ff1c1c;
+}
+
+.red2 {
+    background-color: #d5001f;
+}
+
+.heavenly {
+    background-color: #b4d0e7;
+}
+
+.blue {
+    background-color: #0d2481;
+}
+
+.yellow {
+
+    background-color: #ffd830;
+}
+
+/* YOUR-BUSINESS SECTION 8 */
 
 #your-business {
     background-color: #b4d0e7;
@@ -281,7 +350,7 @@ header {
     color: #61082b;
 }
 
-/* SECTION 9 */
+/* FAQ SECTION 9 */
 
 div.row.borders {
     width: 100%;
@@ -313,3 +382,29 @@ div.row.borders:nth-child(3) {
     align-items: center;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer li {
+    font-weight: 300;
+}
+
+footer .row{
+    padding: 40px 0;
+    width:(100% / 5);
+    justify-content: space-between;
+}
+
+.list-foot:first-child {
+    padding-bottom: 80px;
+    border-bottom: 1px solid white;
+}
+
+.appendx {
+    color: gray;
+    padding-bottom: 20px;
+}
