@@ -82,10 +82,6 @@ li {
     list-style: none;
 }
 
-.listspaces {
-    margin-bottom: 20px;
-}
-
 .row {
     display: flex;
 }
@@ -102,6 +98,10 @@ li {
     padding: 30px
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .mb-40 {
     margin-bottom: 40px;
 }
@@ -110,9 +110,20 @@ li {
     margin-bottom: 20px;
 }
 
+.mb-80 {
+    margin-bottom: 67px;
+}
+
 .mt-40 {
     margin-top: 40px;
 }
+
+.link-nostyle {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 
 /* HEADER */
 
@@ -127,12 +138,6 @@ header {
     right:0;
     z-index: 10;
 }
-
-.link-nostyle {
-    text-decoration: none;
-    color: inherit;
-}
-
 
 .logo {
     margin-right: 10px;
@@ -195,10 +200,6 @@ header {
     margin: 50px 50px 50px 0;
 }
 
-.plan {
-    padding: 30px;
-}
-
 .plan-user {
     text-align: center;
     padding: 10px 0px;
@@ -210,17 +211,17 @@ header {
     margin-bottom: 40px;
 }
 
-.list-plan {
-    margin-bottom: 30px;
-}
-
 .fa-check {
     color: #0061ff;
 }
 
 .fa-solid {
-    margin-top: 4.5px;
+    margin-top: 4px;
     margin-right: 5px;
+}
+
+li strong {
+    display: block;
 }
 
 /* ENTERPRISE SEZIONE 3 */
