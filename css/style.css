@@ -378,7 +378,7 @@ li strong {
     border:none;
 }
 
-.faq1:hover .hidden-answer {
+/* .faq1:hover .hidden-answer {
     display: block;
 }
 
@@ -402,12 +402,80 @@ li strong {
     display: none;
 }
 
-.bt {
-    border-top:1px solid rgb(194, 194, 194);
-}
-
 .hidden-answer {
     display: none;
+} */
+
+/* move */
+
+/* .faqmove:hover .hidden-answer-move {
+    display: block;
+}
+
+.faqmove:hover .row.borders {
+    display: none;
+} */
+
+.hidden-answer-move {
+    position: relative;
+    top: -40px;
+    z-index: -2;
+}
+
+.faqmove1:hover .hidden-answer-move {
+    top: 0px;
+    animation: godown 1s;
+}
+
+.faqmove1:hover .awesome-rotate1 {
+    animation: rotate 1s;
+    animation-fill-mode: forwards;
+}
+
+.faqmove2:hover .hidden-answer-move {
+    top: 0px;
+    animation: godown 1s;
+}
+
+.faqmove2:hover .awesome-rotate2 {
+    animation: rotate 1s;
+    animation-fill-mode: forwards;
+}
+
+.faqmove3:hover .hidden-answer-move {
+    top: 0px;
+    animation: godown 1s;
+}
+
+.faqmove3:hover .awesome-rotate3 {
+    animation: rotate 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes godown {
+    0% {
+         transform: translate(0, -40px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+.answer {
+    background-color: #fff;
+}
+
+/* /move */
+
+.bt {
+    border-top:1px solid rgb(194, 194, 194);
 }
 
 .btn-faq{
