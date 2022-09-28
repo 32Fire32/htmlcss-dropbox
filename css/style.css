@@ -374,6 +374,10 @@ li strong {
     border-right: none;    
 }
 
+.borders-none {
+    border:none;
+}
+
 .faq1:hover .hidden-answer {
     display: block;
 }
@@ -386,7 +390,7 @@ li strong {
     display: block;
 }
 
-.faq2:hover .row.borders {
+.faq2:hover .row.borders-none {
     display: none;
 }
 
@@ -398,17 +402,13 @@ li strong {
     display: none;
 }
 
-.hidden-answer .row {
+.bt {
     border-top:1px solid rgb(194, 194, 194);
 }
 
 .hidden-answer {
     display: none;
 }
-
-/* div.row.borders:nth-child(3) {
-    border:none;
-} */
 
 .btn-faq{
     padding: 40px 0;
