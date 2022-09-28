@@ -21,6 +21,26 @@ h4 {
     font-size: 1.2rem;
 }
 
+/* COMMON */
+
+section {
+    margin-bottom: 120px;
+}
+
+.container-big {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.col-33 {
+    width: calc(100% / 3 - 40px);
+}
+
 /* BUTTONS */
 
 .btn {
@@ -30,13 +50,13 @@ h4 {
     border: none;
 }
 
-.btn-free {
-    width:100%;
-}
-
 .btn-white {
     background-color: #fff; 
     padding: 10px 10px;
+}
+
+.btn-free {
+    margin: 30px 0 30px 0;
 }
 
 /* HEADER */
@@ -88,17 +108,9 @@ header {
     background-color: #b4d0e7;
     padding-top: 140px;
 }
-.jumbo {
-    width:100%;
-}
-
 #hero .row {
     position: relative;
     bottom: -80px;
-}
-
-.btn-free {
-    margin: 30px 0 30px 0;
 }
 
 .fa-arrow-down {
@@ -156,10 +168,6 @@ li strong {
 }
 
 /*  OPERATION-PLANS SECTION SECTION 5 */
-
-.imageb {
-    width: 100%;
-}
 
 /* MANY-TEAMS 6 */
 
@@ -257,11 +265,7 @@ li strong {
     background-color: #b4d0e7;
 }
 
-#your-business .col-big {
-    padding: 80px 0px;
-}
-
-#your-business .col-small {
+#your-business .col-big, #your-business .col-small {
     padding: 80px 0px;
 }
 
@@ -283,10 +287,6 @@ li strong {
     border:1px solid rgb(194, 194, 194);
     border-left: none;
     border-right: none;    
-}
-
-.borders-none {
-    border:none;
 }
 
 .hidden-answer-move {
@@ -354,10 +354,6 @@ li strong {
 .btn-faq{
     padding: 40px 0;
     background-color: #fff;
-    border:none;
-}
-
-.btn-faq:nth-child(2) {
     border:none;
 }
 

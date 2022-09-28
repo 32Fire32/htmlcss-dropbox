@@ -1,29 +1,11 @@
-section {
-    margin-bottom: 120px;
-}
-
 .text-right {
     text-align: right;
-}
-
-.container-big {
-    max-width: 1200px;
-    margin: auto;
-}
-
-.container-small {
-    max-width: 1000px;
-    margin: auto;
 }
 
 .row-wrap-spacebetween {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.col-33 {
-    width: calc(100% / 3 - 40px);
 }
 
 .gray-border {
@@ -54,16 +36,16 @@ li {
     padding: 30px 0;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
 
 .mb-40 {
     margin-bottom: 40px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
 }
 
 .mb-80 {
@@ -77,4 +59,12 @@ li {
 .link-nostyle {
     text-decoration: none;
     color: inherit;
+}
+
+.w100 {
+    width:100%
+}
+
+.borders-none {
+    border:none;
 }
