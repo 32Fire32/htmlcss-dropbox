@@ -279,8 +279,10 @@ li strong {
 
 /* FAQ SECTION 9 */
 
-#faq .row.borders {
-    width: 100%;
+.row.borders .w100 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .borders {
@@ -342,7 +344,7 @@ li strong {
 }
 
 .answer {
-    background-color: #fff;
+    justify-content: space-between;
 }
 
 /* /move */
@@ -357,11 +359,11 @@ li strong {
     border:none;
 }
 
-#faq .col-small {
+/* #faq .col-small {
     display:flex;
     justify-content: flex-end;
     align-items: center;
-}
+} */
 
 /* FOOTER */
 
